@@ -1,0 +1,273 @@
+body {
+    margin: 0px;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+.container {
+    margin: auto;
+    max-width: 1440px;
+}
+
+
+.navbar {
+    padding: 20px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 3px 6px 0px rgba(16, 30, 20, 0.86);
+    -webkit-box-shadow: 1px 3px 6px 0px rgba(16, 30, 20, 0.86);
+    -moz-box-shadow: 1px 3px 6px 0px rgba(16, 30, 20, 0.86);
+}
+
+.navbar-left svg {
+    width: 50px;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+.navbar-left div {
+    font-weight: 600;
+
+}
+
+.navbar-left div:hover {
+    color: #006241;
+    ;
+    cursor: pointer;
+}
+
+.find-a-store:hover {
+    color: #006241;
+    cursor: pointer;
+}
+
+.navbar-left,
+.navbar-right {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.navbar-left>* {
+    padding: 10px;
+}
+
+
+.find-a-store {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    margin-right: 40px;
+}
+
+.find-a-store svg {
+    padding-right: 10px;
+}
+
+.sign-in,
+.join-now {
+
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 7px 16px;
+    margin-right: 16px;
+}
+
+.join-now {
+    background: #000000;
+    color: #fff;
+}
+
+.join-now:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+
+.sign-in:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+}
+
+.product-left img {
+    max-width: 100%;
+    object-fit: contain;
+
+}
+
+.product {
+    display: flex;
+}
+
+.product-right,
+.product-left {
+    max-width: 50%;
+    width: 50%;
+
+}
+
+.product-right {
+    text-align: center;
+}
+
+.product-title {
+    color: #fff;
+    font-size: 38px;
+    letter-spacing: 4px;
+    line-height: 1.2;
+    font-weight: 700;
+    display: inline-flex;
+    text-align: center;
+    width: 60%;
+    margin-top: 10rem;
+}
+
+.product-description {
+    color: #ffffff;
+    font-size: 22px;
+    text-align: center;
+    width: 60%;
+    display: inline-flex;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 32px;
+
+}
+
+.product-button {
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 4px 20px;
+    min-width: 25px;
+    min-height: 25px;
+    width: max-content;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    color: #FFF;
+}
+
+.product-button:hover {
+    cursor: pointer;
+    background-color: rgb(9, 70, 9);
+
+
+}
+
+.product-container {
+    margin-top: 25px;
+}
+
+.footer {
+    padding: 50px;
+    text-align: left;
+    width: 50%;
+    margin: auto;
+    color: #000000;
+
+}
+
+
+.about-us {
+    margin: 0px 0px 0px 32px;
+    text-align: left;
+    color: #00000094;
+    font-size: 16px;
+
+
+}
+
+.about-us div {
+    padding: 8px 0px;
+}
+
+.about-us h2 {
+    color: #000000DE;
+    font-weight: normal;
+
+}
+
+.second-part {
+    padding: 20px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 40px 0px 40px 0px;
+}
+
+.icons svg {
+    margin-right: 20px;
+
+
+}
+
+.icons svg:hover {
+    cursor: pointer;
+
+}
+
+
+
+.link {
+    padding: 8px 0px;
+    margin: 0px 0px 4px;
+
+
+}
+
+.link a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #000000DE;
+}
+
+.link a:hover {
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    margin-left: 20px;
+
+}
+
+.header-container h2 {
+   
+    font-size: 20px;
+    color: #000000DE;
+    margin-right: auto;
+    font-weight: normal;
+
+}
+
+.bolmeler{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+
+}
+
+.bolmeler .about-us{
+
+  margin-right: auto;
+  text-align: left;
+}
+
+.about-us div:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
